@@ -30,13 +30,13 @@ body{
 
     position:absolute;
 
-    bottom:80px;
+    bottom:180px;
 
     left:50%;
 
     transform:translateX(-50%);
 
-    width:200px;
+    width:100px;
 
     cursor:pointer;
 
