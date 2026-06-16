@@ -5,7 +5,32 @@
 }
 
 body{
+    margin:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    background:#222;
+}
+
+#game{
+
+    width:100%;
+
+    max-width:450px;
+
+    height:100vh;
+
+    position:relative;
+
     overflow:hidden;
+
+    background:white;
 }
 
 /* OPENING */
@@ -13,7 +38,7 @@ body{
 #opening-screen{
 
     width:100vw;
-    height:100vh;
+    height:100%;
 
     background-image:url("assets/opening.jpg");
 
