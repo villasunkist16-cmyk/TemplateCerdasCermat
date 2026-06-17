@@ -159,7 +159,7 @@ body{
 
     width:90%;
 
-    margin:5px auto;
+    margin:0px auto;
 }
 
 #questionBoxBg{
@@ -213,7 +213,7 @@ body{
 
     flex-direction:column;
 
-    gap:5px;
+    gap:0px;
 
     align-items:center;
 }
@@ -224,7 +224,7 @@ body{
 
     width:85%;
 
-    margin:5px auto;
+    margin:0px auto;
 
     cursor:pointer;
 }
