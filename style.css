@@ -71,6 +71,21 @@ body{
     }
 }
 
+@keyframes correctPulse{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.12);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+}
+
 #nextBtn:active{
 
     transform:
@@ -301,4 +316,9 @@ body{
 #quizNextBtn:active{
 
     outline:none;
+}
+
+.correct-animation{
+
+    animation:correctPulse 1s infinite;
 }

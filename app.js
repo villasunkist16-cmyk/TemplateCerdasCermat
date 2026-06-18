@@ -63,26 +63,34 @@ answerButtons.forEach(button => {
 
             if(btn === button){
 
-                if(correct){
+    if(correct){
 
-                    bg.src =
-                    "assets/answer-green.png";
+        bg.src =
+        "assets/answer-green.png";
 
-                }else{
+        btn.classList.add(
+            "correct-animation"
+        );
 
-                    bg.src =
-                    "assets/answer-red.png";
+    }else{
 
-                }
+        bg.src =
+        "assets/answer-red.png";
 
-            }
+    }
 
-            else if(correct){
+}
 
-                bg.src =
-                "assets/answer-green.png";
+else if(correct){
 
-            }
+    bg.src =
+    "assets/answer-green.png";
+
+    btn.classList.add(
+        "correct-animation"
+    );
+
+}
 
         });
 
