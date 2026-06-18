@@ -285,4 +285,20 @@ body{
     left:50%;
 
     transform:translateX(-50%);
+    outline:none;
+    border:none;
+
+    -webkit-tap-highlight-color:transparent;
+}
+
+.answer-btn:focus,
+.answer-btn:active,
+#nextBtn:focus,
+#nextBtn:active,
+#repeatBtn:focus,
+#repeatBtn:active,
+#quizNextBtn:focus,
+#quizNextBtn:active{
+
+    outline:none;
 }
